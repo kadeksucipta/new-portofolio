@@ -3,11 +3,38 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import Landing from './Landing/Landing';
+import Skill from './Skill/Skill';
+import store from "./App/store"
+import About from './About/About';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App/>
+  },
+  {
+    path: '/dashboard',
+    element: <Landing/>
+  },
+  {
+    path: '/skill',
+    element: <Skill/>
+  },
+  {
+    path: '/tentang',
+    element: <About/>
+  },
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <RouterProvider router={router}/>
+    </Provider>
   </React.StrictMode>
 );
 

@@ -1,0 +1,337 @@
+body {
+    background: rgb(0, 33, 56);
+    color: white;
+}
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(4, 49, 81);
+    width: 35%;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: 3px solid rgb(27, 66, 94);
+}
+.bar-desk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    cursor: pointer;
+}
+.child-desk {
+    list-style: none;
+    margin-right: 50px;
+} */
+
+/* ISI */
+.container-isi {
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 13%;
+}
+.my-name {
+    background: rgb(0, 186, 215);
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 800;
+    color: white;
+    border-radius: 14px;
+    box-shadow: rgba(0, 242, 255, 0.35) 0px 5px 15px;
+    transition: all 1ms;
+    cursor: pointer;
+}
+.my-name:hover {
+    box-shadow: rgb(0, 242, 255) 0px 5px 15px;
+    transition: all 1ms;
+}
+.title-job {
+    width: 80%;
+}
+.introduce {
+    width: 55%;
+    color: rgb(190, 190, 190);
+    font-size: 17px;
+}
+
+/* ALL SOSMED */
+.container-sosmed {
+    display: flex;
+}
+.box-sosmed {
+    display: flex;
+}
+.li-sosmed-1 {
+    list-style: none;
+    margin-left: -7%;
+    /* margin-right: 10px; */
+    color: white;
+    text-decoration: none;
+}
+.li-sosmed {
+    list-style: none;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.border-line {
+    width: 100%;
+    background: white;
+    height: 1px;
+    margin-top: 13%;
+    opacity: 30%;
+}
+
+.my-project {
+    background: rgb(0, 186, 215);
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 800;
+    color: white;
+    border-radius: 14px;
+    box-shadow: rgba(0, 242, 255, 0.35) 0px 5px 15px;
+    transition: all 1ms;
+    cursor: pointer;
+    margin-top: 13%;
+}
+.my-project:hover {
+    box-shadow: rgb(0, 242, 255) 0px 5px 15px;
+    transition: all 1ms;
+}
+.group-project {
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-1 {
+    width: 48%;
+    margin-bottom: 12px;
+}
+.project-2 {
+    width: 48%;
+    margin-left: 20px;
+    margin-bottom: 12px;
+}
+.project-3 {
+    width: 48%;
+    margin-bottom: 12px;
+}
+.project-4 {
+    width: 48%;
+    margin-left: 20px;
+    margin-bottom: 12px;
+}
+
+/*IMG PROJECT*/
+.coffe-img {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 186, 215);
+    box-shadow: rgba(0, 242, 255, 0.35) 0px 5px 15px;
+}
+.coffe-img:hover {
+    box-shadow: rgb(0, 242, 255) 0px 5px 15px;
+}
+.tokped-img {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 186, 215);
+    box-shadow: rgba(0, 242, 255, 0.35) 0px 5px 15px;
+}
+.tokped-img:hover {
+    box-shadow: rgb(0, 242, 255) 0px 5px 15px;
+}
+.loker-img {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 186, 215);
+    box-shadow: rgba(0, 242, 255, 0.35) 0px 5px 15px;
+}
+.loker-img:hover {
+    box-shadow: rgb(0, 242, 255) 0px 5px 15px;
+}
+.gundala-img {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 186, 215);
+    box-shadow: rgba(0, 242, 255, 0.35) 0px 5px 15px;
+}
+.gundala-img:hover {
+    box-shadow: rgb(0, 242, 255) 0px 5px 15px;
+}
+
+/* FOOTER */
+.code-icon {
+    color: orange;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.li-footer-1 {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.li-footer {
+    list-style: none;
+    margin-top: 30px;
+    text-decoration: none;
+    color: white;
+}
+.isi-footer {
+    display: flex;
+}
+.ul-web {
+    margin-left: 40px;
+}
+.reseverb {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(140, 140, 140);
+    margin-top: 50px;
+}
+.qr-wa {
+    width: 50%;
+    float: right;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width : 500px) {
+    .container-isi {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .container-sosmed {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        
+    }
+    .box-sosmed {
+        display: contents;
+        justify-content: left;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    /* .name-sosmed {
+        display: none;
+    } */
+    .li-sosmed, .li-sosmed-1 {
+        display: flex;
+        margin-left: 0;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 50px;
+        background-color: rgb(0, 186, 215);
+        gap: 5px;
+    }
+    .title-job {
+        font-size: 25px;
+        width: 100%;
+    }
+    .introduce {
+        width: 100%;
+    }
+    .group-project {
+        display: grid;
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+    .project-1, .project-2, .project-3, .project-4 {
+        margin: 0;
+        width: 100%;
+    }
+    /* .isi-footer {
+        display: grid;
+    }
+    .ul-web {
+        margin-left: 0;
+    }
+    .qr-wa {
+        float: left;
+    } */
+    .li-sosmed-1 {
+        margin-left: 0;
+    }
+  }
+
+  @media only screen and (max-width : 800px) {
+    .container-isi {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    .title-job {
+        font-size: 25px;
+        width: 90%;
+    }
+    .introduce {
+        width: 90%;
+    }
+  }
+
+  @media only screen and (max-width : 900px) {
+    .container-isi {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    .title-job {
+        font-size: 25px;
+        width: 90%;
+    }
+    .introduce {
+        width: 90%;
+    }
+  }
+
+  @media only screen and (max-width : 1050px) {
+    .container-isi {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    .title-job {
+        font-size: 25px;
+        width: 90%;
+    }
+    .introduce {
+        width: 90%;
+    }
+  }
+
+  @media only screen and (max-width : 600px) {
+    .container-isi {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    .title-job {
+        font-size: 25px;
+        width: 90%;
+    }
+    .introduce {
+        width: 90%;
+    }
+    .li-sosmed, .li-sosmed-1 {
+        display: flex;
+        place-items: center;
+    }
+    .group-project {
+        display: grid;
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+    .project-1, .project-2, .project-3, .project-4 {
+        margin: 0;
+        width: 100%;
+    }
+  }
